@@ -1,0 +1,36 @@
+{
+  "name": "karman-ui-theme-dark",
+  "version": "0.0.1",
+  "description": "Karman component chalk theme.",
+  "main": "lib/index.css",
+  "style": "lib/index.css",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Space-Huntsman/karman-ui-theme-dark.git"
+  },
+  "keywords": [
+    "karman",
+    "theme"
+  ],
+  "author": "yi.shyang@ele.me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Space-Huntsman/karman-ui-theme-dark/issues"
+  },
+  "homepage": "https://github.com/Space-Huntsman/karman-ui-theme-dark#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
