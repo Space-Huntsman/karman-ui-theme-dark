@@ -44,11 +44,12 @@
   @include e(expand-icon) {
     position: relative;
     cursor: pointer;
-    color: #666;
+    color: $--input-font-color;
     font-size: 12px;
+    margin-right: 5px;
     transition: transform 0.2s ease-in-out;
     height: 20px;
-
+    display: inline-block;
     @include m(expanded) {
       transform: rotate(90deg);
     }
@@ -482,7 +483,7 @@
     & .kui-table__body {
       & tr.kui-table__row--striped {
         td {
-          background: #FAFAFA;
+          background: $--color-primary-light-9;
         }
 
         &.current-row td {

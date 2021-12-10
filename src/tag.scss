@@ -28,7 +28,7 @@
     }
 
     .kui-tag__close {
-      color: mix($--tag-info-color, $--color-white, $fontColorWeight);
+      color: lighten(mix($--tag-info-color, $--color-white, $fontColorWeight),20%);
       &:hover {
         color: $--color-white;
         background-color: mix($--tag-info-color, $--color-white, $hoverColorWeight);
