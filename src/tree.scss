@@ -47,7 +47,7 @@
   @include when(drop-inner) {
     > .kui-tree-node__content .kui-tree-node__label {
       background-color: $--color-primary;
-      color: #fff;
+      color: $--color-white;
     }
   }
 

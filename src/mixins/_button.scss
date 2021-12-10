@@ -34,6 +34,7 @@
   color: $color;
   background-color: $background-color;
   border-color: $border-color;
+  text-shadow: 1px 1px 5px rgba(0 ,0, 0 ,0.42);
 
   &:hover,
   &:focus {
@@ -41,7 +42,7 @@
     border-color: mix($--color-white, $border-color, $--button-hover-tint-percent);
     color: $color;
   }
-  
+
   &:active {
     background: mix($--color-black, $background-color, $--button-active-shade-percent);
     border-color: mix($--color-black, $border-color, $--button-active-shade-percent);

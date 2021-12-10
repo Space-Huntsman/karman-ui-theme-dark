@@ -401,7 +401,7 @@
       }
       .kui-tabs__item.is-left.is-active {
         border: 1px solid $--border-color-light;
-        border-right-color: #fff;
+        border-right-color: $--color-white;
         border-left: none;
         border-bottom: none;
 
@@ -473,7 +473,7 @@
       }
       .kui-tabs__item.is-right.is-active {
         border: 1px solid $--border-color-light;
-        border-left-color: #fff;
+        border-left-color: $--color-white;
         border-right: none;
         border-bottom: none;
 

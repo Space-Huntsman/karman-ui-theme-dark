@@ -20,7 +20,7 @@ $--color-primary: #00AADD !default;
 /// color|1|Background Color|4
 $--color-white: #0C2D40 !default;
 /// color|1|Background Color|4
-$--color-black: #FFFFFF !default;
+$--color-black: #ffffff !default;
 $--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
 $--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
 $--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
@@ -483,7 +483,7 @@ $--cascader-menu-shadow: $--box-shadow-light !default;
 $--cascader-node-background-hover: $--background-color-base !default;
 $--cascader-node-color-disabled: $--color-text-placeholder !default;
 $--cascader-color-empty: $--color-text-placeholder !default;
-$--cascader-tag-background: #f0f2f5;
+$--cascader-tag-background: $--color-white;
 
 /* Group
 -------------------------- */
@@ -561,31 +561,31 @@ $--button-disabled-border-color: $--border-color-lighter !default;
 /// color||Color|0
 $--button-primary-border-color: $--color-primary !default;
 /// color||Color|0
-$--button-primary-font-color: $--color-white !default;
+$--button-primary-font-color: $--color-black !default;
 /// color||Color|0
 $--button-primary-background-color: $--color-primary !default;
 /// color||Color|0
 $--button-success-border-color: $--color-success !default;
 /// color||Color|0
-$--button-success-font-color: $--color-white !default;
+$--button-success-font-color: $--color-black !default;
 /// color||Color|0
 $--button-success-background-color: $--color-success !default;
 /// color||Color|0
 $--button-warning-border-color: $--color-warning !default;
 /// color||Color|0
-$--button-warning-font-color: $--color-white !default;
+$--button-warning-font-color: $--color-black !default;
 /// color||Color|0
 $--button-warning-background-color: $--color-warning !default;
 /// color||Color|0
 $--button-danger-border-color: $--color-danger !default;
 /// color||Color|0
-$--button-danger-font-color: $--color-white !default;
+$--button-danger-font-color: $--color-black !default;
 /// color||Color|0
 $--button-danger-background-color: $--color-danger !default;
 /// color||Color|0
 $--button-info-border-color: $--color-info !default;
 /// color||Color|0
-$--button-info-font-color: $--color-white !default;
+$--button-info-font-color: $--color-black !default;
 /// color||Color|0
 $--button-info-background-color: $--color-info !default;
 
@@ -818,7 +818,7 @@ $--datepicker-inrange-hover-background-color: $--border-color-extra-light !defau
 $--datepicker-active-color: $--color-primary !default;
 /// color||Color|0
 $--datepicker-hover-font-color: $--color-primary !default;
-$--datepicker-cell-hover-color: #fff !default;
+$--datepicker-cell-hover-color: $--color-white !default;
 
 /* Loading
 --------------------------*/
@@ -950,7 +950,7 @@ $--form-label-font-size: $--font-size-base !default;
 /* Avatar
 --------------------------*/
 /// color||Color|0
-$--avatar-font-color: #fff !default;
+$--avatar-font-color: $--color-white !default;
 /// color||Color|0
 $--avatar-background-color: #C1C4D6 !default;
 /// fontSize||Font Size|1

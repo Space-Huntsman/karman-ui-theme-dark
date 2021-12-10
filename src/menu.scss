@@ -38,7 +38,7 @@
 }
 
 @include b(menu) {
-  border-right: solid 1px #e6e6e6;
+  border-right: $--border-color-base;
   list-style: none;
   position: relative;
   margin: 0;
@@ -46,7 +46,7 @@
   background-color: $--menu-background-color;
   @include utils-clearfix;
   &.kui-menu--horizontal {
-    border-bottom: solid 1px #e6e6e6;
+    border-bottom: $--border-color-base;
   }
 
   @include m(horizontal) {
@@ -66,7 +66,7 @@
 
       &:not(.is-disabled):hover,
       &:not(.is-disabled):focus{
-        background-color: #fff;
+        background-color: $--color-white;
       }
     }
     & > .kui-submenu {
@@ -94,7 +94,7 @@
         color: $--color-text-secondary;
 
         &:hover {
-          background-color: #fff;
+          background-color: $--color-white;
         }
       }
       & .kui-submenu__icon-arrow {
